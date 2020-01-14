@@ -17,8 +17,8 @@ body {
   flex-wrap: wrap;
   background-color: lightgrey;
   position: absolute;
-  width: 40vw;
-  height: 40vw;
+  width: 355px;
+  height: 355px;
 }
 
 .container > div {
@@ -38,29 +38,29 @@ body {
 }
 
 #input {
-  font-size: 3vw;
+  font-size: 40px;
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
 }
 #input::placeholder {
-  font-size: 2.5vw;
+  font-size: 32px;
 }
 
 #gioca {
-  font-size: 6vw;
+  font-size: 75px;
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 #punteggio {
-  font-size: 4vw;
+  font-size: 50px;
   position: absolute;
-  top: 25%;
-  left: 45%;
+  top: 20%;
+  left: 50%;
   transform: translateX(-50%);
-
+  white-space: nowrap;
 }
