@@ -27,20 +27,40 @@ body {
   border: 1px solid black;
 }
 
+.brown {
+  background-color: brown;
+}
 .green {
   background-color: green;
 }
+.red {
+  background-color: red;
+}
 
 #input {
+  font-size: 3vw;
   position: absolute;
-  top: 0;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#input::placeholder {
+  font-size: 2.5vw;
+}
+
+#gioca {
+  font-size: 6vw;
+  position: absolute;
+  bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-#gioca {
+#punteggio {
+  font-size: 4vw;
   position: absolute;
-  top: 5%;
-  left: 50%;
+  top: 25%;
+  left: 45%;
   transform: translateX(-50%);
+
 }
