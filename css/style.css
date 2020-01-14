@@ -18,9 +18,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 355px;
-  max-width: 38vh;
+  max-width: 35vh;
   height: 355px;
-  max-height: 38vh;
+  max-height: 35vh;
 }
 
 .container > div {
