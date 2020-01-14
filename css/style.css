@@ -18,9 +18,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 355px;
-  max-width: 40vh;
+  max-width: 38vh;
   height: 355px;
-  max-height: 40vh;
+  max-height: 38vh;
 }
 
 .container > div {
@@ -52,7 +52,7 @@ body {
 }
 
 #gioca {
-  font-size: 65px;
+  font-size: 50px;
   position: absolute;
   bottom: 5%;
   left: 50%;
