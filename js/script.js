@@ -3,7 +3,8 @@ $(document).ready(function() {
   reset();
 
   $("#difficolta").change(function() {
-    difficolta = $('#difficolta').value;
+    difficolta = $('#difficolta').val();
+    console.log(difficolta);
     switch (difficolta) {
       case "difficile":
       tentativi = 34;
