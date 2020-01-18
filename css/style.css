@@ -83,10 +83,12 @@ body {
   font-size: 7vw;
   cursor: pointer;
   height: 20%;
-  line-height: 125%;
   background-color: yellowgreen;
   border-bottom-right-radius: 5vw;
   border-bottom-left-radius: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .display-none {
   display: none;
