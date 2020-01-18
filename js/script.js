@@ -67,7 +67,9 @@ $(document).ready(function() {
     numeriVecchi = [];
     sceltaDifficolta();
     $("#overlay").hide();
-    $(".container > div").removeClass("green red brown");
+    $(".container > div.green").removeClass("green");
+    $(".container > div.red").removeClass("red");
+    $(".container > div.brown").removeClass("brown");
     document.getElementById('punteggio').innerHTML = "Punteggio: " + punteggio;
     $("#difficolta").show();
   }
