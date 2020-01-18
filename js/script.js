@@ -27,7 +27,7 @@ $(document).ready(function() {
         document.getElementById('punteggio').innerHTML = "Punteggio: " + punteggio;
       }
     }
-    if (punteggio != 0) {
+    if (punteggio == 1) {
       $("#difficolta").hide();
     }
     if (trovato == false && punteggio >= tentativi) {
