@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Campo Minato</title>
   </head>
   <body>
-    <input id="input" placeholder="Inserisci un numero da 1 a 100" type="number" name="numeroScelto" value="">
-    <button id="gioca" type="button" name="button">Gioca</button>
+    <div id="overlay" class="display-none">
+      <div id="testo"><p></p></div>
+      <div id="ok">OK</div>
+    </div>
     <div id="punteggio">Punteggio: 0</div>
     <select id="difficolta" class="" name="difficolta">
       <option value="facile">Facile</option>

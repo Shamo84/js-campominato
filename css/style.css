@@ -43,30 +43,10 @@ body {
   display: none;
 }
 
-#input {
-  font-size: 35px;
-  position: absolute;
-  bottom: 20%;
-  left: 50%;
-  max-width: 95vw;
-  transform: translateX(-50%);
-}
-#input::placeholder {
-  font-size: 25px;
-}
-
-#gioca {
-  font-size: 50px;
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 #punteggio {
   font-size: 40px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -74,7 +54,40 @@ body {
 #difficolta {
   font-size: 30px;
   position: absolute;
-  top: 15%;
+  bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
+}
+#overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 85%;
+  height: 60%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  border-radius: 5vw;
+  text-align: center;
+}
+#testo {
+  font-size: 6vw;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ok {
+  font-size: 7vw;
+  cursor: pointer;
+  height: 20%;
+  line-height: 125%;
+  background-color: yellowgreen;
+  border-bottom-right-radius: 5vw;
+  border-bottom-left-radius: 5vw;
+}
+.display-none {
+  display: none;
 }
