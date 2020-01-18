@@ -60,7 +60,7 @@ $(document).ready(function() {
     }
     return randomArray;
   }
-
+ // resetta il gioco alle impostazioni iniziali
   function reset() {
     punteggio = 0;
     trovato = false;
@@ -71,7 +71,7 @@ $(document).ready(function() {
     document.getElementById('punteggio').innerHTML = "Punteggio: " + punteggio;
     $("#difficolta").show();
   }
-
+  // aggiusta tutto in base alla difficoltà scelta
   function sceltaDifficolta() {
     difficolta = $('#difficolta').val();
     switch (difficolta) {
