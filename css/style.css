@@ -81,6 +81,7 @@ body {
 }
 #ok {
   font-size: 7vw;
+  text-shadow: .2vw .2vw white;
   cursor: pointer;
   height: 20%;
   background-color: yellowgreen;
@@ -89,6 +90,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 .display-none {
   display: none;
